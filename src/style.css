@@ -1,1 +1,41 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  font-size: 120px;
+  border-radius: 25px;
+  width: 18rem;
+  height: 24rem;
+}
+.bottom-right-suit {
+  font-size: 80px;
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+  transform: rotate(180deg);
+}
+.top-left-suit {
+  font-size: 80px;
+  position: absolute;
+  top: 3%;
+  left: 10%;
+}
+.redNumber {
+  color: red;
+}
+.heart,
+.diamond {
+  color: red;
+}
+.cardValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
