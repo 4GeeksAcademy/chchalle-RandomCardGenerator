@@ -2,8 +2,9 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
 }
 
@@ -12,6 +13,7 @@
   border-radius: 25px;
   width: 18rem;
   height: 24rem;
+  margin-bottom: 5rem;
 }
 .bottom-right-suit {
   font-size: 80px;
@@ -29,13 +31,24 @@
 .redNumber {
   color: red;
 }
+.blackNumber {
+  color: black;
+}
 .heart,
 .diamond {
   color: red;
+}
+.spade,
+.clube {
+  color: black;
 }
 .cardValue {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+.btn {
+  justify-content: center;
+  align-items: center;
 }
